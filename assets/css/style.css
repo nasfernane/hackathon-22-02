@@ -249,15 +249,18 @@ header nav ul li a:hover {
     transition: all 0.1s ease-out;
 }
 
-.navLink:nth-child(1):hover {
+.navLink:nth-child(1):hover,
+.navLink:nth-child(1).active {
     border-bottom: 0.5rem solid #e53238;
 }
 
-.navLink:nth-child(2):hover {
+.navLink:nth-child(2):hover,
+.navLink:nth-child(2).active {
     border-bottom: 0.5rem solid #f5af02;
 }
 
-.navLink:nth-child(3):hover {
+.navLink:nth-child(3):hover,
+.navLink:nth-child(3).active {
     border-bottom: 0.5rem solid #86b817;
 }
 

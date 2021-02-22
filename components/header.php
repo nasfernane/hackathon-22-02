@@ -20,13 +20,14 @@
             <h1>Les enchères solidaires !</h1>
             <nav>
                 <ul>
-                    <div class="navLink">
+                    <?php $path = strtolower(substr($_SERVER["REQUEST_URI"], 1));?>
+                    <div class="navLink<?php echo $path === 'home' ? ' active' : ''; ?>">
                         <li><a href="/home">accueil</a></li>
                     </div>
-                    <div class="navLink">
+                    <div class="navLink<?php echo $path === 'presentation' ? ' active' : ''; ?>">
                         <li><a href="/presentation">présentation</a></li>
                     </div>
-                    <div class="navLink">
+                    <div class="navLink<?php echo $path === 'inscription' ? ' active' : ''; ?>">
                         <li><a href="/inscription">inscription</a></li>
                     </div>
                 </ul>
