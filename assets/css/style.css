@@ -1,0 +1,64 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins&display=swap');
+
+/* Reset global */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    min-height: 100vh;
+}
+
+header,
+footer {
+    height: 15vh;
+}
+
+main {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    color: #fff;
+}
+
+h2 {
+    font-size: 5rem;
+    font-family: 'Caveat', cursive;
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+/* HOMEVIEW */
+.homeView {
+    background-color: #264e96;
+}
+
+.homeView__first div {
+    display: flex;
+}
+
+.homeView__first div img {
+    height: 20rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
