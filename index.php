@@ -4,8 +4,8 @@ require './components/header.php';
 
 $arrayViews = [
     'home' => 'home.php',
-    'contact' => 'contact.php',
-    'blog' => 'blog.php',
+    'inscription' => 'inscription.php',
+    'presentation' => 'presentation.php',
 ];
 
 // récupère l'url après "/index/"
