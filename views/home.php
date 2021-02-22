@@ -19,16 +19,23 @@
    
 
     <h2> Bibendum fête ses 120 ans !</h2>
+    <h3> A l'occasion de l'anniversaire des 120 ans de Michelin, le célèbre Bibendum s'associe avec <img src="/assets/img/EBay_logo.png" id="ebayLogo" /> pour lancer une série d'évènements festifs et caritatifs.
+            </h3>
 
-    <p>
-    A l'occasion de son 120ème anniversaire, Bibendum est fier de vous présenter son nouveau partenariat avec Ebay, la célèbre entreprise de vente pour particuliers, en vue de lancer une série d'évènements festifs et caritatifs.
+    <article class="homeView__second">
+        <div>
+            
+            <p>
+                Depuis de nombreuses années, Ebay est connu des collectionneurs en tant que plateforme de référence pour dénicher des trouvailles rares ou exotiques. Michelin s'étant vu doté au fil des années d'un héritage iconographique fort constamment alimenté par la créativité d'artistes talentueux à travers le monde, le partenariat entre ces deux grandes entreprises s'est imposé comme une évidence. Vous pourrez à l'occasion de cet évènement retrouver notamment : 
 
-    Depuis de nombreuses années, Ebay est connu des collectionneurs en tant que plateforme de référence pour dénicher des trouvailles rares ou exotiques. Michelin s'étant vu doté au fil des années d'un héritage iconographique fort constamment alimenté par la créativité d'artistes talentueux à travers le monde, le partenariat entre ces deux grandes entreprises s'est imposé comme une évidence. Vous pourrez à l'occasion de cet évènement retrouver notamment : 
-    • Une série de ventes aux enchères d'artistes qui ont réalisé des sculptures avec des pneus Michelin recyclés. Afin de ponctuer le combat de chaque instant de Michelin pour vous offrir toujours une meilleur qualité et plus de qualité sur vos trajets, les bénéfices seront reversés à diverses associations caritatives françaises oeuvrant pour la sécurisation des transports ou encore la prise en charge des victimes d'accidents de la route.
-    • Un accès exclusif à l'achat d'objets collectors inédits.
-    • Une chance de gagner des cadeaux en vous inscrivant à la newletter hebdomadaire Michelin.
+                • Une série de ventes aux enchères d'artistes qui ont réalisé des sculptures avec des pneus Michelin recyclés. Afin de ponctuer le combat de chaque instant de Michelin pour vous offrir toujours une meilleur qualité et plus de qualité sur vos trajets, les bénéfices seront reversés à diverses associations caritatives françaises oeuvrant pour la sécurisation des transports ou encore la prise en charge des victimes d'accidents de la route.
+                • Un accès exclusif à l'achat d'objets collectors inédits.
+                • Une chance de gagner des cadeaux en vous inscrivant à la newletter hebdomadaire Michelin.
+            </p>
+            <img src="/assets/img/michelin2.png" alt="Bibendum 2">
+        </div>
 
-    </p>
+    </article>
 
 
 </main>
