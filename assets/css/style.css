@@ -26,17 +26,19 @@ body {
 
 /* Typographie générale */
 
-header,
+header {
+    height: 20vh; /* MODIF THIERRY */
+}
 footer {
-    height: 15vh;
+    height: 8vh; /* MODIF THIERRY */
 }
 
 main {
-    min-height: 70vh;
+    min-height: 72vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem;
+    padding: 10rem 5rem 5rem 5rem;
     color: #fff;
 }
 
@@ -103,7 +105,7 @@ h3 #ebayLogo {
 .carouselPicture {
     margin: 0 auto;
     height: 500px;
-    width: auto;
+    width: auto !important;
 }
 
 /* INSCRIPTION VIEW */
@@ -164,4 +166,127 @@ h3 #ebayLogo {
 .inscriptionForm label:hover {
     color: #ddd;
     background-color: #495057;
+}
+
+/* header  */
+
+header {
+    position: relative;
+}
+header #logos {
+    position: absolute;
+    top: 17px;
+    left: 45px;
+    width: 410px;
+    height: 100px;
+    display: flex;
+}
+header #logoMichelin {
+    height: 87px;
+}
+header #logoEbay {
+    height: 96px;
+}
+header h1 {
+    position: absolute;
+    top: 17px;
+    right: 45px;
+    font-size: 5rem;
+    font-family: 'Caveat', cursive;
+}
+header #logoAnniv {
+    position: absolute;
+    margin-left: 50%;
+    left: -81px;
+    top: 50%;
+}
+header nav {
+    position: absolute;
+    right: 4.5rem;
+    bottom: 2rem; /* modif nassim */
+    height: 6rem;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header nav ul li:hover {
+    border-radius: 5px 5px 0 0;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+header nav ul li a:link,
+header nav ul li a:visited,
+header nav ul li a:hover {
+    color: #fff;
+}
+
+.navLink {
+    height: 5rem;
+    width: 18rem;
+    margin: 0 2rem;
+    padding-bottom: 1rem;
+    /* border-radius: 6px; */
+    transition: all 0.1s ease-out;
+}
+
+.navLink:nth-child(1):hover {
+    border-bottom: 0.5rem solid #e53238;
+}
+
+.navLink:nth-child(2):hover {
+    border-bottom: 0.5rem solid #f5af02;
+}
+
+.navLink:nth-child(3):hover {
+    border-bottom: 0.5rem solid #86b817;
+}
+
+.navLink:nth-child(1) li {
+    background-color: #e53238;
+}
+
+.navLink:nth-child(2) li {
+    background-color: #f5af02;
+}
+
+.navLink:nth-child(3) li {
+    background-color: #86b817;
+}
+
+/* footer */
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+footer ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.5rem;
 }

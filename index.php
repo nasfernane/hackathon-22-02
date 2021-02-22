@@ -19,6 +19,8 @@ if ($path) {
     } else {
         require('views/404.php');
     }
+} else {
+    require('views/home.php');
 }
 
 require './components/footer.php';
